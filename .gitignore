@@ -1,4 +1,6 @@
 /private/
 /public/
 /resources/_gen/
-.hugo_build.lock
+/assets/jsconfig.json
+hugo_stats.json
+/.hugo_build.lock
