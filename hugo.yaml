@@ -63,7 +63,7 @@ params:
     theme: "#1b1c1d"
 
   portrait:
-    path: "/gfx/avatar.png"
+    path: "/gfx/avatar_michele_righi.png"
     #pathHQ: "/gfx/avatar_hq.png"
     #maxWidth: 2000
 
@@ -84,8 +84,6 @@ params:
     rss: true
     topText: []
     bottomText: []
-    #- "Powered by <a href=\"http://gohugo.io\">Hugo</a>"
-    #- "Theme by <a href=\"https://github.com/rhazdon\">Djordje Atlialp</a>"
 
   social:
     - name: "GitHub"
