@@ -47,7 +47,7 @@ jobs:
         with:
           submodules: recursive
           fetch-depth: 0
-          ssh-key: ${{ secrets.SSH_PRIVATE_KEY }}
+          token: ${{ secrets.PAT_PRIVATE }}
 
       - name: Update submodules to latest
         run: |
