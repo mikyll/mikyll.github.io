@@ -43,7 +43,7 @@
   correct_answer: 3
 
 - body: |
-    Dati una funzione convessa definita su un insieme S convesso ed una soglia t, il sottoinsieme di punti x di S in cui f(x) <= t :
+    Dati una funzione convessa definita su un insieme S convesso ed una soglia t, il sottoinsieme di punti x di S in cui f(x) <= t:
   topic: "Programmazione Matematica"
   answers:
     - "È concavo"
