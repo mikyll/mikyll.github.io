@@ -85021,12 +85021,13 @@ for(s=a.length-1;s>=0;--s)this.Q9(a[s].a,b)},
 a52(){var s=this.c
 s.toString
 A.aEv(new A.ahG(this),s,t.z)},
-a53(){var s,r,q,p=this,o=A.b([],t.mW)
-for(s=0;r=p.f,s<r.length;++s)if(r[s])o.push(p.e[s])
-r=p.x
+a53(){var s,r,q,p,o=this,n=A.b([],t.mW)
+for(s=0;r=o.f,s<r.length;++s)if(r[s])n.push(o.e[s])
+r=o.x
 r===$&&A.a()
-q=o.length
-r.UV(new A.xY("remove(num: "+q+", newSize: "+(p.e.length+q)+")",new A.ahH(p,o),new A.ahI(p,o),new A.ahJ(p,o)))},
+q=n.length
+p=o.e.length
+r.UV(new A.xY("remove(num: "+q+", newSize: "+(p+q)+")",new A.ahH(o,n),new A.ahI(o,n),new A.ahJ(o,n)))},
 ao(){var s,r=this
 r.aD()
 r.x=new A.a_i("init(size: "+r.a.c.length+")",A.b([],t.uF))
@@ -85104,9 +85105,12 @@ $1(a){var s=this.a,r=s.a.d
 return new A.pU(s.e,r,new A.ahF(s),null)},
 $S:521}
 A.ahF.prototype={
-$1(a){var s=this.a,r=s.x
-r===$&&A.a()
-r.UV(new A.xY("add(topic: '"+A.l(a.c)+"', id: "+a.a+", newSize: "+(s.e.length+1)+")",new A.ahD(s,a),new A.ahE(s,a),null))},
+$1(a){var s,r,q,p=this.a,o=p.x
+o===$&&A.a()
+s=a.a
+r=p.e.length
+q=new A.ahD(p,a)
+o.UV(new A.xY("add(topic: '"+A.l(a.c)+"', id: "+s+", newSize: "+(r+1)+")",q,new A.ahE(p,a),q))},
 $S:522}
 A.ahD.prototype={
 $0(){var s=this.b
@@ -86123,7 +86127,7 @@ j=j?B.d4:e
 j=A.aS("Risposta "+g,e,e,e,e,new A.m(!0,j,e,e,e,e,e,e,e,e,e,e,e,e,e,e,e,e,e,e,e,e,e,e,e,e),e,e)
 m=m.e===n
 f=m?e:new A.apu(d,n)
-q[n]=A.bE(A.b([l,new A.kJ(1,B.eM,A.Og(e,new A.p8(e,e,j,e,e,e,e,e,e,e,e,e,e,e,e,e,!0,!0,e,e,e,e,B.dF,e,e,e,e,e,e,e,e,e,e,e,e,e,e,e,e,e,e,e,e,B.k,e,e,e,i,e,e,h,new A.dp(4,B.aX,B.cc),!0,e,e,e),!m,k,e,new A.bc(e,o),e,e,e,1,e,e,f,!0,!0,!1,B.ax,e),e)],p),B.t,B.A,B.w,0)}d=A.a1(q,r)
+q[n]=A.bE(A.b([l,new A.kJ(1,B.eM,A.Og(e,new A.p8(e,e,j,e,e,e,e,e,e,e,e,e,e,e,e,e,!0,!0,e,e,e,e,B.dF,e,e,e,e,e,e,e,e,e,e,e,e,e,e,e,e,e,e,e,e,B.k,e,e,e,i,e,e,h,new A.dp(4,B.aX,B.cc),!0,e,e,e),!m,k,e,new A.bc(e,o),e,e,e,3,1,e,f,!0,!0,!1,B.ax,e),e)],p),B.t,B.A,B.w,0)}d=A.a1(q,r)
 return new A.aK(B.HR,A.a4X(e,new A.aK(B.h6,A.dF(d,B.t,B.A,B.bo,10),e),c,!1,!1,!1,!1,e,e),e)},
 $S:537}
 A.apt.prototype={
