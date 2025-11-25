@@ -51,10 +51,10 @@ jobs:
 
       - name: Update submodules to latest
         run: |
-          git submodule update --remote private/ --recursive
+          git submodule update --recursive --remote private/
           git add private/
           # Lock to submodule commit
-          # git submodule update --remote themes/hello-friend-ng/ --recursive
+          # git submodule update --recursive --remote themes/hello-friend-ng/
           # git add themes/hello-friend-ng/
 
       - name: Setup Pages
