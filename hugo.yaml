@@ -7,35 +7,19 @@ copyright: '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_b
 
 module:
   mounts:
-  - disableWatch: false
-    excludeFiles: null
-    includeFiles: null
-    lang: ""
-    source: private/archetypes
+  - source: private/archetypes
     target: archetypes
-  - disableWatch: false
+    disableWatch: false
     excludeFiles: null
     includeFiles: null
     lang: ""
-    source: private/assets
+  - source: private/assets
     target: assets
-  - disableWatch: false
-    excludeFiles: null
-    includeFiles: null
-    lang: ""
-    source: private/content
+  - source: private/content
     target: content
-  - disableWatch: false
-    excludeFiles: null
-    includeFiles: null
-    lang: ""
-    source: private/layouts
+  - source: private/layouts
     target: layouts
-  - disableWatch: false
-    excludeFiles: null
-    includeFiles: null
-    lang: ""
-    source: private/data
+  - source: private/data
     target: data
 
 pagination:
@@ -69,8 +53,8 @@ params:
     theme: "#1b1c1d"
 
   portrait:
-    path: "/gfx/avatar_michele_righi.png"
-    #pathHQ: "/gfx/avatar_hq.png"
+    path: "gfx/avatar_michele_righi.png"
+    #pathHQ: "/gfx/avatar_michele_righi.png"
     #maxWidth: 2000
 
   logo:
@@ -92,25 +76,25 @@ params:
     bottomText: []
 
   social:
-    - name: "GitHub"
+    - name: "github"
       icon: "github"
       url: "https://github.com/mikyll"
-    - name: "StackOverflow"
+    - name: "stackoverflow"
       icon: "stackoverflow"
       url: "https://stackoverflow.com/users/19544859"
-    - name: "LeetCode"
+    - name: "leetcode"
       icon: "leetcode"
       url: "https://leetcode.com/Mikyll/"
-    - name: "LinkedIn"
+    - name: "linkedin"
       icon: "linkedin"
       url: "https://linkedin.com/in/michele-righi"
-    - name: "Instagram"
+    - name: "instagram"
       icon: "instagram"
       url: "https://instagram.com/mikyll98/"
-    - name: "YouTube"
+    - name: "youtube"
       icon: "youtube"
       url: "https://youtube.com/user/mikyll98"
-    - name: "E-mail"
+    - name: "email"
       icon: "email"
       url: "mailto:righi.michele98@gmail.com"
 
