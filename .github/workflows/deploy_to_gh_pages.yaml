@@ -49,11 +49,13 @@ jobs:
           fetch-depth: 0
           token: ${{ secrets.PAT_PRIVATE }}
 
-      # Lock to submodule commit
-      # - name: Update submodules to latest
-      #   run: |
-      #     git submodule update --remote --recursive
-      #     git add .
+      - name: Update submodules to latest
+        run: |
+          git submodule update --remote private/ --recursive
+          git add private/
+          # Lock to submodule commit
+          # git submodule update --remote themes/hello-friend-ng/ --recursive
+          # git add themes/hello-friend-ng/
 
       - name: Setup Pages
         id: pages
