@@ -49,10 +49,11 @@ jobs:
           fetch-depth: 0
           token: ${{ secrets.PAT_PRIVATE }}
 
-      - name: Update submodules to latest
-        run: |
-          git submodule update --remote --recursive
-          git add .
+      # Lock to submodule commit
+      # - name: Update submodules to latest
+      #   run: |
+      #     git submodule update --remote --recursive
+      #     git add .
 
       - name: Setup Pages
         id: pages
