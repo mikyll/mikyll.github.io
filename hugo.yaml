@@ -79,24 +79,31 @@ params:
     - name: "github"
       icon: "github"
       url: "https://github.com/mikyll"
+      nonewpage: 0
     - name: "stackoverflow"
       icon: "stackoverflow"
       url: "https://stackoverflow.com/users/19544859"
+      nonewpage: 0
     - name: "leetcode"
       icon: "leetcode"
       url: "https://leetcode.com/Mikyll/"
+      nonewpage: 0
     - name: "linkedin"
       icon: "linkedin"
       url: "https://linkedin.com/in/michele-righi"
+      nonewpage: 0
     - name: "instagram"
       icon: "instagram"
       url: "https://instagram.com/mikyll98/"
+      nonewpage: 0
     - name: "youtube"
       icon: "youtube"
       url: "https://youtube.com/user/mikyll98"
+      nonewpage: 0
     - name: "email"
       icon: "email"
       url: "mailto:righi.michele98@gmail.com"
+      nonewpage: 0
 
 taxonomies:
   category: "blog"
