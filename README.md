@@ -2,6 +2,7 @@
 
 My personal website.
 
-Built with: [Hugo](https://gohugo.io/)
+## Built With
 
-Theme: [rhazdon/hugo-theme-hello-friend-ng](https://github.com/rhazdon/hugo-theme-hello-friend-ng) (extended/customized by me)
+- Website Framework: [Hugo](https://gohugo.io/)
+- Theme: [rhazdon/hugo-theme-hello-friend-ng](https://github.com/rhazdon/hugo-theme-hello-friend-ng) (extended/customized by me)
