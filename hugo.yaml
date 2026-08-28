@@ -53,7 +53,7 @@ params:
     theme: "#1b1c1d"
 
   portrait:
-    path: "gfx/avatar_michele_righi.png"
+    path: "gfx/avatar/michele_righi.png"
     #pathHQ: "/gfx/avatar_michele_righi.png"
     #maxWidth: 2000
 
